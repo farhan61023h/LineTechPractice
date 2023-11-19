@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @font-face {
+        font-family: Blanka;
+        src: url(Blanka-Regular.otf);
+    }
+
+    @font-face {
+
+        font-family: helix;
+        src: url('HeliosExt.otf');
+    }
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: linear-gradient(to right, #855faa, #695897, #37356d, #232c5a, #182849);
+    }
+
+    #container {
+        position: relative;
+        top: 100px;
+        width: 80vw;
+        height: 60vh;
+        margin: auto;
+        display: flex;
+    }
+
+    .border {
+        width: 50%;
+    }
+
+    #gif>img {
+        width: 100%;
+    }
+
+    #aboutUs {
+        margin-top: 30px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #aboutUs>h1{
+        position: relative;
+        bottom: 40px;
+        font-family: Blanka;
+        color: white;
+        font-size: 2.8rem;
+        letter-spacing: 3px;
+        word-spacing: 5px;
+    }
+
+    #aboutUs>p{
+        font-size: 1.3rem;
+        color: white;
+        font-family: helix;
+    }   
+</style>
+
+<body>
+    <div id="container">
+        <div id="gif" class=" border">
+            <img src="1.gif" alt="">
+        </div>
+        <div id="aboutUs" class="border">
+            <h1>About Us</h1>
+            <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident ullam nihil illum aperiam facilis,
+                dolorem officia accusantium similique, voluptatibus ab quidem hic quis, libero pariatur delectus
+                necessitatibus? Sed laudantium similique nisi molestias nihil in sapiente corrupti eaque quas aliquid
+                </p>
+        </div>
+    </div>
+</body>
+
+</html>
